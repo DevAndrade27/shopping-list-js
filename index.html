@@ -23,24 +23,19 @@
           type="text"
           placeholder="Digite o item que deseja adicionar"
         />
-        <button class="button-item" id="adicionar-item" type="button">Salvar item</button>
+        <button class="button-item" id="adicionar-item" type="button">
+          Salvar item
+        </button>
       </form>
 
       <div class="container-lista">
         <h2>Lista de compras</h2>
         <hr />
 
-        <ul id="lista-de-compras">
-          <li>
-            <div class="lista-item-container">
-              <input type="checkbox" id="checkbox-1" />
-              <p>Ração de gato</p>
-            </div>
-            <p class="texto-data">Segunda-feira (31/10/2022) às 08:30</p>
-          </li>
-        </ul>
+        <ul id="lista-de-compras"></ul>
+        <p class="mensagem-lista-vazia">Não há nenhum item na lista no momento.</p>
       </div>
-      <script src="index.js"></script>
     </main>
+    <script defer src="index.js"></script>
   </body>
 </html>
